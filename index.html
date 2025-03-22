@@ -24,7 +24,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url(https://m.media-amazon.com/images/I/8196t8jeRqL._AC_SL1500_.jpg) no-repeat center center fixed;
+            background: url(https://m.media-amazon.com/images/I/81JSnYYMFcL._AC_SL1500_.jpg) no-repeat center center fixed;
             background-size: cover; 
             opacity: 0.8; 
             z-index: -1; 
@@ -35,7 +35,7 @@
             background: rgba(255, 255, 255, 0.9);
             padding: 2rem;
             border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 182, 193, 0.5); /* Pink glow */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 0 30px rgba(255, 182, 193, 0.5);
             position: relative;
         }
 
@@ -43,14 +43,14 @@
             font-size: 3rem;
             margin: 0;
             animation: bounce 1s infinite;
-            background: linear-gradient(45deg, #ff69b4, #dda0dd); /* Pink to lavender gradient */
+            background: linear-gradient(45deg, #ff69b4, #dda0dd); 
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         h2 {
             font-size: 1.2rem;
-            color: #ff69b4; /* Pink */
+            color: #ff69b4; 
             margin: 10px 0;
             opacity: 0;
             transition: opacity 1s ease-in;
@@ -135,7 +135,7 @@
         button {
             padding: 10px 20px;
             font-size: 1.2rem;
-            background: #ff69b4; /* Pink button */
+            background: #ff69b4;
             color: white;
             border: none;
             border-radius: 5px;
@@ -145,8 +145,8 @@
 
         button:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 15px rgba(221, 160, 221, 0.7); /* Lavender glow */
-            background: #ff5ea3; /* Slightly darker pink */
+            box-shadow: 0 0 15px rgba(221, 160, 221, 0.7); 
+            background: #ff5ea3; 
         }
     </style>
 </head>
@@ -180,7 +180,7 @@
             balloon.style.left = Math.random() * 100 + 'vw';
             balloon.style.width = `${Math.random() * 20 + 40}px`;
             balloon.style.height = `${parseFloat(balloon.style.width) * 1.4}px`;
-            balloon.style.background = `hsl(${Math.random() * 60 + 300}, 80%, 60%)`; /* Pink and lavender hues */
+            balloon.style.background = `hsl(${Math.random() * 60 + 300}, 80%, 60%)`;
             balloon.style.animationDuration = `${Math.random() * 4 + 6}s`;
             document.body.appendChild(balloon);
             
